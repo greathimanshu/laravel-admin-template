@@ -1,0 +1,112 @@
+/* THEME CHANGE : START */
+.login-cover .overlay_black {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    z-index: 0;
+}
+
+.login_box {
+    background: rgb(84, 120, 84);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 17px 0px rgb(0 0 0 / 79%);
+    -webkit-box-shadow: 2px 2px 17px 0px rgb(0 0 0 / 79%);
+    -moz-box-shadow: 2px 2px 17px 0px rgba(0, 0, 0, 0.79);
+}
+
+.login_box .form-control {
+    /* border-radius: 51px; */
+    padding: 26px 21px;
+    background-color: #ffffff !important;
+    /* color: #2E42FF; */
+    border: none;
+    font-size: 18px !important;
+}
+
+.login_box h5 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.sp-des {
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+button.btn.btn-primary.btn-block.session-btn {
+    background: rgb(32 38 22 / 73%);
+    border-color: #94aea6;
+}
+
+button.btn.btn-primary.btn-block.session-btn:hover {
+    color: rgb(32 38 22 / 73%);
+    background-color: rgba(254, 254, 254, 0.73) !important;
+}
+
+.login_box .alert-danger {
+    color: #335629;
+    background-color: #fce3e3;
+    border-color: #2d4823;
+}
+
+.psw {
+    color: rgba(161, 227, 202, 0.873);
+}
+/* input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #565656 inset !important;
+} */
+
+@media (min-width: 576px) {
+    .login-form {
+        width: 30rem !important;
+    }
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+/* THEME CHANGE : END */
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(
+        to right,
+        #ee7724,
+        #d8363a,
+        #dd3675,
+        #b44593
+    );
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+    }
+}
+.login-cover {
+    background: url("https://img.freepik.com/free-vector/green-curve-frame-template-vector_53876-113965.jpg?w=1800&t=st=1675073017~exp=1675073617~hmac=3347661006b454b49681126a7b55e0afa30f8da358bd735974b61a65e6e9f81f");
+    background-size: cover !important;
+}

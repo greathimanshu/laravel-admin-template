@@ -1,0 +1,173 @@
+/* THEME CHANGE : START */
+
+body {
+    font-size: 16px !important;
+}
+
+.sidebar-user img.new {
+    height: 6.375rem;
+    width: 6.375rem;
+    margin-top: 0.1875rem;
+    margin-bottom: 0.1875rem;
+}
+
+.sidebar-dark .nav-sidebar > .nav-item > .nav-link.active {
+    background-color: #2e42ff !important;
+    color: #fff;
+}
+
+.sidebar-dark .nav-sidebar .nav-link:not(.disabled):hover {
+    color: #fff;
+    background-color: #2e42ff !important;
+}
+
+.t-head {
+    background-color: #252b36 !important;
+    color: #fff;
+}
+
+.btn.btn-primary {
+    color: #fff;
+    background-color: #2e42ff !important;
+    border-color: #2e42ff !important;
+}
+
+.btn.btn-primary:hover {
+    color: #fff;
+    background-color: #2e42ff !important;
+    border-color: #2e42ff !important;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #2e42ff !important;
+    border-color: #2e42ff !important;
+}
+
+.page-title {
+    padding: 1rem 0 !important;
+    position: relative;
+}
+
+/* THEME CHANGE : END */
+
+.datatable-footer {
+    border: none;
+    display: none;
+}
+
+.card {
+    border-radius: 1.25rem !important;
+    overflow: hidden !important;
+}
+
+.datatable-header {
+    padding: 0rem 1.25rem 0 1.25rem;
+}
+
+#search-btn-my {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navbar-search {
+    border: 1px solid #ddd !important;
+    border-radius: 0.75rem;
+}
+
+#round-img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+#homelogo-img {
+    width: 130px;
+    height: 130px;
+}
+
+.d_badge {
+    padding-right: 10%;
+}
+
+.page-link {
+    border-radius: 50%;
+    /* background: transparent; */
+    border: 1px transparent;
+}
+
+.page-item:last-child .page-link {
+    border-radius: 50%;
+    background: transparent;
+}
+
+.page-item:first-child .page-link {
+    border-radius: 50%;
+    background: transparent;
+}
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(
+        to right,
+        #ee7724,
+        #d8363a,
+        #dd3675,
+        #b44593
+    );
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+    }
+}
+
+.btn.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(32 38 22 / 73%) !important;
+    border-color: rgba(98, 122, 61, 0.73) !important;
+}
+
+.btn.btn-primary:hover {
+    color: rgb(32 38 22 / 73%);
+    background-color: rgba(254, 254, 254, 0.73) !important;
+}
+
+.changeTheme {
+    color: rgb(255, 254, 254);
+    background-color: rgb(67, 72, 67);
+}
+
+.changeTitle {
+    color: rgb(67, 72, 67);
+    background-color: rgb(148, 178, 148);
+}
+.changeBody {
+    color: rgb(67, 72, 67);
+    background-color: rgb(212, 223, 212);
+}
+
+.changeTable {
+    color: rgb(43, 42, 42);
+    background-color: rgb(220, 236, 220);
+}
+.nav-link {
+    color: rgb(156, 214, 156);
+}
+.cardColor {
+    background-color: rgb(67, 72, 67);
+}
